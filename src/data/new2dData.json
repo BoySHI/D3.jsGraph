@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "identity": 1,
+      "labels": [
+        "节点1"
+      ],
+      "data": {
+        "name": "节点1",
+        "color": "blue"
+      }
+    },
+    {
+      "identity": 2,
+      "labels": [
+        "节点2"
+      ],
+      "data": {
+        "name": "节点2",
+        "color": "red"
+      }
+    },
+    {
+      "identity": 3,
+      "labels": [
+        "节点3"
+      ],
+      "data": {
+        "name": "节点3",
+        "color": "#333"
+      }
+    },
+    {
+      "identity": 4,
+      "labels": [
+        "节点4"
+      ],
+      "data": {
+        "name": "节点4",
+        "color": "#87CEFA"
+      }
+    },
+    {
+      "identity": 5,
+      "labels": [
+        "节点5"
+      ],
+      "data": {
+        "name": "节点5",
+        "color": "#5F9EA0"
+      }
+    },
+    {
+      "identity": 8,
+      "labels": [
+        "节点6"
+      ],
+      "data": {
+        "name": "节点6",
+        "color": "#008080"
+      }
+    },
+    {
+      "identity": 9,
+      "labels": [
+        "节点7"
+      ],
+      "data": {
+        "name": "节点7",
+        "color": "#FFD700"
+      }
+    },
+    {
+      "identity": 10,
+      "labels": [
+        "节点8"
+      ],
+      "data": {
+        "name": "节点8",
+        "color": "#808000"
+      }
+    }
+  ],
+  "links": [
+    {
+      "identity": 1,
+      "start": 1,
+      "end": 4,
+      "type": "export",
+      "data": {
+        "name": "关系1"
+      }
+    },
+    {
+      "identity": 2,
+      "start": 3,
+      "end": 4,
+      "type": "export",
+      "data": {
+        "name": "关系2"
+      }
+    },
+    {
+      "identity": 2,
+      "start": 4,
+      "end": 3,
+      "type": "export",
+      "data": {
+        "name": "关系3"
+      }
+    },
+    {
+      "identity": 2,
+      "start": 3,
+      "end": 4,
+      "type": "export",
+      "data": {
+        "name": "关系4"
+      }
+    },
+    {
+      "identity": 2,
+      "start": 3,
+      "end": 4,
+      "type": "export",
+      "data": {
+        "name": "关系5"
+      }
+    }
+  ]
+}

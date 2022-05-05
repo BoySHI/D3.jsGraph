@@ -1,0 +1,60 @@
+[
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Enterprise"
+        ],
+        "properties": {
+          "name": "节点1",
+          "color": "#f2f2f2"
+        }
+      },
+      "end": {
+        "identity": 120913,
+        "labels": [
+          "Country"
+        ],
+        "properties": {
+          "name": "伊朗",
+          "color": "red"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Enterprise"
+            ],
+            "properties": {
+              "name": "中国航空技术北京有限公司",
+              "color": "#333"
+            }
+          },
+          "relationship": {
+            "identity": 96972,
+            "start": 0,
+            "end": 120913,
+            "type": "export",
+            "properties": {
+              "name": "出口"
+            }
+          },
+          "end": {
+            "identity": 120913,
+            "labels": [
+              "Country"
+            ],
+            "properties": {
+              "name": "伊朗",
+              "color": "yellow"
+            }
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]
